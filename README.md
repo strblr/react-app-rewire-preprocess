@@ -1,4 +1,4 @@
-# react-app-rewire-ifdef
+# react-app-rewire-preprocess
 
 Adds [preprocess-loader](https://github.com/dearrrfish/preprocess-loader) to a react-app-rewired config, which allows JavaScript or TypeScript preprocessed statements like `@ifdef`, `@echo`, etc.
 
