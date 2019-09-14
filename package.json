@@ -1,0 +1,16 @@
+{
+  "name": "react-app-rewire-preprocess",
+  "version": "1.0.0",
+  "description": "Add preprocess-loader to a react-app-rewired config.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostrebler/react-app-rewire-preprocess.git"
+  },
+  "author": "ostrebler",
+  "license": "MIT",
+  "dependencies": {
+    "customize-cra": "^0.6.1",
+    "preprocess-loader": "^0.3.0"
+  }
+}
