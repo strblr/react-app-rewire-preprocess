@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-preprocess",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add preprocess-loader to a react-app-rewired config.",
   "main": "index.js",
   "repository": {

@@ -1,12 +1,13 @@
 const { getBabelLoader } = require('customize-cra')
 
-module.exports = (options = {}) => config => {
+module.exports = (options = {}, ruleConfig = {}) => config => {
   const { test, include } = getBabelLoader(config)
   config.module.rules.push({
     test,
     include,
-    loader: 'preprocess-loader',
-    options
+    ...ruleConfig,
+    options,
+    loader: 'preprocess-loader'
   })
   return config
 }

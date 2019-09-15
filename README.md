@@ -19,3 +19,14 @@ module.exports = rewirePreprocess({
   ...options // see preprocess-loader's doc for more details on available options
 })
 ```
+
+By default, the loader only preprocesses `.js`, `.mjs`, `.jsx`, `.ts` and `.tsx` files in your `src` directory. You can change that behaviour by setting the second parameter :
+
+```javascript
+module.exports = rewirePreprocess({
+  ...options
+}, {
+  test: /myCustomRegexp/,
+  include: [...paths]
+})
+```
